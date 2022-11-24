@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dbc2793-6101-4e0f-8185-c1f949d64850" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Escudo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Estado.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Personaje.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Personaje.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/Sala.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Sala.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/PersonajeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/PersonajeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -163,7 +166,7 @@
       <workItem from="1668518282457" duration="3649000" />
       <workItem from="1668690860180" duration="5652000" />
       <workItem from="1669124047376" duration="4934000" />
-      <workItem from="1669295987872" duration="2261000" />
+      <workItem from="1669295987872" duration="5301000" />
     </task>
     <servers />
   </component>
@@ -180,5 +183,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/model/Entidad.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -23,7 +23,7 @@ class PersonajeTest{
 
     @Test
     void usarObjeto() {
-        Personaje personaje = new Personaje("Ejemplo");
+        Personaje personaje = new Personaje("Ejemplo", 100, 10, 10);
         int ataque = personaje.getAtaque();
         int defensa = personaje.getDefensa();
 
