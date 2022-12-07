@@ -1,4 +1,4 @@
-package mx.uaemex.fi.paradigmas_i.lemuria.error;
+package error;
 
 public class DireccionNoValida extends RuntimeException {
 

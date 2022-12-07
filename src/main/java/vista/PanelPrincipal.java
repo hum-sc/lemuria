@@ -1,4 +1,4 @@
-package mx.uaemex.fi.paradigmas_i.lemuria.vista;
+package vista;
 
 import java.awt.Graphics;
 import java.awt.image.BufferedImage;
@@ -9,8 +9,8 @@ import javax.swing.JButton;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
-import mx.uaemex.fi.paradigmas_i.lemuria.control.ControlMapa;
-import mx.uaemex.fi.paradigmas_i.lemuria.model.Direccion;
+import control.ControlMapa;
+import model.Direccion;
 
 public class PanelPrincipal extends JPanel{
 	private BufferedImage fondo;

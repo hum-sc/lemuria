@@ -18,7 +18,7 @@ public class Mapa {
         salas = new Sala[renglones][columnas];
         for(int i = 0; i<renglones; i++){
             for ( int j = 0; j<columnas; j++){
-                setSala(new Sala(), i, j);
+                setSala(new Sala(i+" "+j), i, j);
             }
         }
         this.posicionActual = new Coordenada(x,y);
@@ -102,8 +102,8 @@ public class Mapa {
     public Sala[][] getSalas() {
         return salas;
     }
-    public Sala getSala(int renglon, int columna){
-        return salas[renglon][columna];
+    public Sala getSala(){
+        return salas[posicionActual.getX()][posicionActual.getY()];
     }
     public Coordenada getPosicionActual() {
         return posicionActual;

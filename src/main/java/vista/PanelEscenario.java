@@ -1,4 +1,4 @@
-package mx.uaemex.fi.paradigmas_i.lemuria.vista;
+package vista;
 
 import java.awt.Graphics;
 import java.awt.image.BufferedImage;

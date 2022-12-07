@@ -5,12 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dbc2793-6101-4e0f-8185-c1f949d64850" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Escudo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Estado.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Personaje.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Personaje.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/control/ControlMapa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/ControlMapa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/control/PruebaControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/PruebaControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/error/DireccionNoValida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/error/DireccionNoValida.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Mapa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Mapa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/Sala.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Sala.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tests/PersonajeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/PersonajeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vista/PanelEscenario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vista/PanelEscenario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vista/PanelPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vista/PanelPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vista/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vista/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vista/SalaVista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vista/SalaVista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vista/VentanaPrueba.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vista/VentanaPrueba.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +56,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "model.Entidad",
     "create.test.in.the.same.root": "true",
+    "dart.analysis.tool.window.visible": "false",
     "last_directory_selection": "C:/Users/hum-s/IdeaProjects/lemuria/src/main/java/tests",
     "last_opened_file_path": "C:/Users/hum-s/Downloads/monokai-pro-jetbrains.jar",
     "nodejs_package_manager_path": "npm",
@@ -66,7 +72,7 @@
       <recent name="tests" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PersonajeTest.usarObjeto">
+  <component name="RunManager" selected="Application.Principal">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tests.App" />
       <module name="lemuria.main" />
@@ -80,17 +86,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EntidadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="vista.Principal" />
       <module name="lemuria.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="vista.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.EntidadTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -145,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PersonajeTest.usarObjeto" />
+        <item itemvalue="Application.Principal" />
         <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.PersonajeTest.usarObjeto" />
         <item itemvalue="JUnit.EntidadTest.getAtaqueAndDefensa" />
         <item itemvalue="JUnit.EntidadTest.atacar" />
-        <item itemvalue="JUnit.EntidadTest" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +193,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/model/Entidad.java</url>
-          <line>48</line>
+          <line>50</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

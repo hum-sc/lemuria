@@ -1,12 +1,13 @@
-package mx.uaemex.fi.paradigmas_i.lemuria.control;
+package control;
 
 import javax.swing.JFrame;
 
-import mx.uaemex.fi.paradigmas_i.lemuria.model.Direccion;
-import mx.uaemex.fi.paradigmas_i.lemuria.model.Item;
-import mx.uaemex.fi.paradigmas_i.lemuria.model.Mapa;
-import mx.uaemex.fi.paradigmas_i.lemuria.model.Sala;
-import mx.uaemex.fi.paradigmas_i.lemuria.vista.SalaVista;
+import model.Direccion;
+import model.Item;
+import model.Mapa;
+import model.Sala;
+import vista.SalaVista;
+
 
 public class PruebaControl {
 
@@ -16,12 +17,12 @@ public class PruebaControl {
 		Sala[][] salas;
 		Item item;
 		
-		item = new Item();
+		item = new Item("muffin");
 		item.setNombre("muffin");
 		
 		salas =new Sala[3][3];
 		salas[0][0] = new Sala("calabozo");
-		salas[0][0].setCoso(item);
+		salas[0][0].setItem(item);
 		
 		salas[0][1] = new Sala("caverna");
 		salas[0][2] = new Sala("castillo");

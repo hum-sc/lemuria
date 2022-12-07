@@ -1,4 +1,4 @@
-package mx.uaemex.fi.paradigmas_i.lemuria.vista;
+package vista;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -7,9 +7,9 @@ import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 import javax.swing.JPanel;
 
-import mx.uaemex.fi.paradigmas_i.lemuria.control.ControlMapa;
-import mx.uaemex.fi.paradigmas_i.lemuria.model.Direccion;
-import mx.uaemex.fi.paradigmas_i.lemuria.model.Sala;
+import control.ControlMapa;
+import model.Direccion;
+import model.Sala;
 
 public class SalaVista extends JFrame{
 	public static final String ATACAR = "Atacar";

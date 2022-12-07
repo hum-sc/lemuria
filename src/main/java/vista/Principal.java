@@ -1,11 +1,11 @@
-package mx.uaemex.fi.paradigmas_i.lemuria.vista;
+package vista;
 
 import javax.swing.JFrame;
 
-import mx.uaemex.fi.paradigmas_i.lemuria.control.ControlMapa;
-import mx.uaemex.fi.paradigmas_i.lemuria.model.Item;
-import mx.uaemex.fi.paradigmas_i.lemuria.model.Mapa;
-import mx.uaemex.fi.paradigmas_i.lemuria.model.Sala;
+import control.ControlMapa;
+import model.Item;
+import model.Mapa;
+import model.Sala;
 
 public class Principal {
 
@@ -17,12 +17,12 @@ public class Principal {
 		Sala[][] salas;
 		Item item;
 		
-		item = new Item();
+		item = new Item("pocion");
 		item.setNombre("pocion");
 		
 		salas =new Sala[3][3];
 		salas[0][0] = new Sala("calabozo");
-		salas[0][0].setCoso(item);
+		salas[0][0].setItem(item);
 		
 		salas[0][1] = new Sala("caverna");
 		salas[0][2] = new Sala("castillo");

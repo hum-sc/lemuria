@@ -1,19 +1,19 @@
-package mx.uaemex.fi.paradigmas_i.lemuria.control;
+package control;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 import javax.swing.JFrame;
 
-import mx.uaemex.fi.paradigmas_i.lemuria.error.DireccionNoValida;
-import mx.uaemex.fi.paradigmas_i.lemuria.model.Direccion;
-import mx.uaemex.fi.paradigmas_i.lemuria.model.Enemigo;
-import mx.uaemex.fi.paradigmas_i.lemuria.model.Item;
-import mx.uaemex.fi.paradigmas_i.lemuria.model.Mapa;
-import mx.uaemex.fi.paradigmas_i.lemuria.model.Sala;
-import mx.uaemex.fi.paradigmas_i.lemuria.vista.PanelEscenario;
-import mx.uaemex.fi.paradigmas_i.lemuria.vista.PanelPrincipal;
-import mx.uaemex.fi.paradigmas_i.lemuria.vista.SalaVista;
+import error.DireccionNoValida;
+import model.Direccion;
+import model.Enemigo;
+import model.Item;
+import model.Mapa;
+import model.Sala;
+import vista.PanelEscenario;
+import vista.PanelPrincipal;
+import vista.SalaVista;
 
 public class ControlMapa implements ActionListener {
 	private Mapa mapa;                       
@@ -50,11 +50,11 @@ public class ControlMapa implements ActionListener {
 			
 			//Obtener informacion de la sala//			
 			nombre = s.getNombre();
-			e = s.getMasSiOsare();
+			e = s.getEnemigo();
 			
 			panel = new PanelEscenario( nombre );
 			if ( e == null) {
-				coso = s.getCoso();
+				coso = s.getItem();
 				if(coso != null) {
 					panel.setItem(coso.getNombre());
 				}

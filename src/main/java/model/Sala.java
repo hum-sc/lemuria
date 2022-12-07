@@ -8,6 +8,11 @@ public class Sala extends ElementoConNombre{
         this.enemigo = enemigo;
         this.item = item;
     }
+    public Sala(String nombre) {
+        super(nombre);
+        this.enemigo = null;
+        this.item = null;
+    }
 
     public Enemigo getEnemigo() {
         return enemigo;
