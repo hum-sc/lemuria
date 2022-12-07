@@ -26,6 +26,7 @@ public class Mapa {
 
     public Mapa(Sala[][] salas){
         setSalas(salas);
+        this.posicionActual = new Coordenada((int) (Math.random()*columnas), (int) (Math.random()*renglones));
     }
 
     public void cambiarSala(int direccion){

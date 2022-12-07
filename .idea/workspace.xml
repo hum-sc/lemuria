@@ -6,16 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6dbc2793-6101-4e0f-8185-c1f949d64850" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/control/ControlMapa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/ControlMapa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/control/PruebaControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/PruebaControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/error/DireccionNoValida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/error/DireccionNoValida.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/Mapa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Mapa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Sala.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Sala.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vista/PanelEscenario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vista/PanelEscenario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vista/PanelPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vista/PanelPrincipal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vista/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vista/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vista/SalaVista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vista/SalaVista.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vista/VentanaPrueba.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vista/VentanaPrueba.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
