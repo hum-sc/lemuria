@@ -1,35 +1,51 @@
-package model;
-
+package mx.uaemex.fi.paradigmas_i.lemuria.model;
 import java.util.ArrayList;
-import java.util.List;
 
+import javax.swing.JOptionPane;
+
+import mx.uaemex.fi.paradigmas_i.lemuria.model.Item;
 public class Mochila {
-    private int capacidad;
-    private List<Item> inventario;
-    public Mochila(int capacidad) {
-        this.capacidad = capacidad;
-        this.inventario = new ArrayList<Item>();
-    }
-    public void sacar (Item item){
-        inventario.remove(item);
-    }
-    public boolean guardar (Item item){
-        if (inventario.size() < capacidad){
-            inventario.add(item);
-            return true;
-        }
-        return false;
-    }
-    public void ampliar (int capacidad){
-        this.capacidad += capacidad;
-    }
-    public void reducir (int capacidad){
-        this.capacidad -= capacidad;
-    }
-    public int getCapacidad() {
-        return capacidad;
-    }
-    public List<Item> getInventario() {
-        return inventario;
-    }
+	ArrayList<Item> inventario = new ArrayList<Item>();
+	int capacidad;
+	
+
+	public int getCapacidad() {
+		return capacidad;
+	}
+
+	public void setCapacidad(int capacidad) {
+		this.capacidad = capacidad;
+	}
+	
+	public void guardar(Item item) {
+		if(capacidad>=inventario.size()) {
+			//Error
+			JOptionPane.showMessageDialog(null, "Error no se guardo el item");
+		}else {
+			inventario.add(item);
+			JOptionPane.showMessageDialog(null, "El item se guardo correctamente");
+		}
+	}
+	
+	public void sacar(Item item) {
+		if(inventario.size()>0) {
+			int indice=inventario.lastIndexOf(item);
+			inventario.remove(indice);
+			System.out.print("Inventario"+inventario);
+		}else {
+			//Error
+			JOptionPane.showMessageDialog(null, "No hay items");
+		}
+	}
+
+	public ArrayList<Item> getInventario() {
+		return inventario;
+	}
+
+	public Item obtenerItem(Item item) {
+		int indice=inventario.lastIndexOf(item);
+		return inventario.get(indice);
+	}
+	
+	
 }
