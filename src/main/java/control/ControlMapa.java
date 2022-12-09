@@ -14,6 +14,7 @@ public class ControlMapa implements ActionListener {
 	private Mapa mapa;                       
 	private Pantalla pantalla;
 	private Ventana ventana;
+	private Tesoro tesoro;
 
 	private Personaje personaje;
 	private String manoNombre;
@@ -114,9 +115,9 @@ public class ControlMapa implements ActionListener {
 		}
 		pantalla = new Pantalla(this.mapa.getSala().getNombre(), manoNombre, personaje.getVida());
 		//Aqui va la validacion
-		/*if(tesoro!=null) {
+		if(tesoro!=null) {
     		JOptionPane.showMessageDialog(null,"¡GANASTE!");
-    	}*/
+    	}
 
 		despliega(pantalla);
 	}
