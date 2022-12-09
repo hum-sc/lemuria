@@ -4,9 +4,66 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6dbc2793-6101-4e0f-8185-c1f949d64850" name="Changes" comment="">
+    <list default="true" id="86dd1c27-171d-46de-8e48-a74247e700aa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/imagenes/chanchito.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imagenes/inventario.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/control/ControlJuego.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/control/ControlMochila.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Actions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vista/GameBoy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vista/Pantalla.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vista/Slot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vista/Texto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vista/Ventana.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Mapa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Mapa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/control/ControlMapa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/control/PruebaControl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/error/DireccionNoValida.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exception/Sala404Exception.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/imagenes/gameboy.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/imagenes/gameboy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/control/ControlMapa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/ControlMapa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/control/PruebaControl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Mochila.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Mochila.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Personaje.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Personaje.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Pocion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Pocion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/EntidadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/EntidadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vista/PanelEscenario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vista/PanelEscenario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vista/PanelPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vista/PanelPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vista/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vista/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vista/VentanaPrueba.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Arma.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Coordenada.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Coso.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Direccion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/ElementoConNombre.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Enemigo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Entidad.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Escudo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Estado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Mapa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Mochila.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Personaje.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Pocion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/PruebaMapa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Sala.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/EntidadTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/MapaTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/PersonajeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vista/Ejemplo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vista/PanelEscenario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vista/PanelPrincipal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vista/Principal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vista/SalaVista.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vista/VentanaPrueba.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +78,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -32,136 +88,50 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2HMFOGBmEpRpUwgra7LRIFyHjqo" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectId" id="2IdKRqWiNt7sI9JSsIoeHQbEM1b" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "model.Entidad",
-    "create.test.in.the.same.root": "true",
     "dart.analysis.tool.window.visible": "false",
-    "last_directory_selection": "C:/Users/hum-s/IdeaProjects/lemuria/src/main/java/tests",
-    "last_opened_file_path": "C:/Users/hum-s/Downloads/monokai-pro-jetbrains.jar",
+    "last_opened_file_path": "C:/Users/hum-s/Documents/Programacion/paradigmasProgramacion/lemuria/src/imagenes",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="model.Entidad" />
-      <recent name="" />
-    </key>
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="tests" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hum-s\Documents\Programacion\paradigmasProgramacion\lemuria\src\imagenes" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Principal">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tests.App" />
-      <module name="lemuria.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="vista.Principal" />
       <module name="lemuria.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="vista.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EntidadTest.atacar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lemuria.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.EntidadTest" />
-      <option name="METHOD_NAME" value="atacar" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EntidadTest.getAtaqueAndDefensa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lemuria.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.EntidadTest" />
-      <option name="METHOD_NAME" value="getAtaqueAndDefensa" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PersonajeTest.usarObjeto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lemuria.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.PersonajeTest" />
-      <option name="METHOD_NAME" value="usarObjeto" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Principal" />
-        <item itemvalue="Application.App" />
-        <item itemvalue="JUnit.PersonajeTest.usarObjeto" />
-        <item itemvalue="JUnit.EntidadTest.getAtaqueAndDefensa" />
-        <item itemvalue="JUnit.EntidadTest.atacar" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6dbc2793-6101-4e0f-8185-c1f949d64850" name="Changes" comment="" />
-      <created>1668087011964</created>
+      <changelist id="86dd1c27-171d-46de-8e48-a74247e700aa" name="Changes" comment="" />
+      <created>1670506019710</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1668087011964</updated>
-      <workItem from="1668087014474" duration="5339000" />
-      <workItem from="1668518124960" duration="122000" />
-      <workItem from="1668518282457" duration="3649000" />
-      <workItem from="1668690860180" duration="5652000" />
-      <workItem from="1669124047376" duration="4934000" />
-      <workItem from="1669295987872" duration="5301000" />
+      <updated>1670506019710</updated>
+      <workItem from="1670506022603" duration="27691000" />
     </task>
     <servers />
   </component>
@@ -178,16 +148,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/model/Entidad.java</url>
-          <line>50</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

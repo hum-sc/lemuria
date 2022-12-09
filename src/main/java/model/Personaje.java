@@ -8,13 +8,10 @@ public class Personaje extends Entidad{
         this.mochila = new Mochila(10);
         this.mano = null;
     }
-    public void seleccionarObjeto(Item item){
+    public Item seleccionarObjeto(Item item){
+        Item r = this.mano;
         mano = item;
-        if (mano instanceof Pocion) {
-            setVida(getVida()+mano.getNivel());
-            mochila.sacar(item);
-            mano = null;
-        }
+        return r;
     }
     public Item getMano(){
         return mano;
@@ -36,5 +33,9 @@ public class Personaje extends Entidad{
         }
         return (int) (Math.random() * (defensaMax - 1)) + 1;
     }
+    public void setMano(Item mano) {
+        this.mano = mano;
+    }
+
 
 }

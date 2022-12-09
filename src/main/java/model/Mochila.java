@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Mochila {
     private int capacidad;
-    private List<Item> inventario;
+    private ArrayList<Item> inventario;
     public Mochila(int capacidad) {
         this.capacidad = capacidad;
         this.inventario = new ArrayList<Item>();
@@ -29,7 +29,11 @@ public class Mochila {
     public int getCapacidad() {
         return capacidad;
     }
-    public List<Item> getInventario() {
+    public ArrayList<Item> getInventario() {
         return inventario;
+    }
+
+    public Item getItem(int i){
+        return inventario.get(i);
     }
 }

@@ -2,6 +2,7 @@ package vista;
 
 import java.awt.Graphics;
 import java.awt.image.BufferedImage;
+import java.io.File;
 import java.io.IOException;
 
 import javax.imageio.ImageIO;
@@ -52,7 +53,9 @@ public class PanelEscenario extends JPanel {
 	
 	public PanelEscenario(String fondoImg) {
 		try {
-			fondo = ImageIO.read(getClass().getResource("/imagenes/" + fondoImg + ".png"));
+			File file =new File("src/imagenes/" + fondoImg + ".png");
+			System.out.println(file.getAbsolutePath());
+			this.fondo = ImageIO.read(file);
 		}catch (IOException ie) {
 			JOptionPane.showMessageDialog(null, "Juego atrofiado por favor, restaurar version");
 		}

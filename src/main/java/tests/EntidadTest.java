@@ -17,7 +17,7 @@ class EntidadTest {
 
     @AfterEach
     void tearDown() {
-        System.out.println("Entidad: "+entidad.getNombre()+" Vida: "+entidad.getVida()+" Defensa: "+entidad.getDefensa()+" Ataque: "+entidad.getAtaque());
+        System.out.println("Entidad: "+entidad.getNombre()+" Texto: "+entidad.getVida()+" Defensa: "+entidad.getDefensa()+" Ataque: "+entidad.getAtaque());
         entidad = null;
     }
 

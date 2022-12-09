@@ -2,6 +2,7 @@ package vista;
 
 import java.awt.Graphics;
 import java.awt.image.BufferedImage;
+import java.io.File;
 import java.io.IOException;
 
 import javax.imageio.ImageIO;
@@ -23,7 +24,8 @@ public class PanelPrincipal extends JPanel{
 		JButton btn;
 		try {
 			this.ctrlMapa=ctrl;
-			this.fondo=ImageIO.read(getClass().getResource("/imagenes/gameboy.png"));
+			File file =new File("src/imagenes/gameboy.png");
+			this.fondo=ImageIO.read(file);
 			//Botones de direccion
 			btn=new JButton();
 			btn.setOpaque(false);
