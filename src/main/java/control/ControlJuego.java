@@ -23,6 +23,8 @@ public class ControlJuego implements ActionListener {
         salas[0][0].setEnemigo(new Enemigo("julien", 100, 5, 10));
         salas[0][0].setItem(new Pocion("pocion",  10));
         salas[0][1] = new Sala("caverna");
+        salas[0][1].setEnemigo(new Enemigo("julien", 100, 5, 10));
+        salas[0][1].setItem(new Pocion("pocion",  10));
         salas[0][2] = new Sala("castillo");
         salas[1][0] = new Sala("pozo");
         salas[1][1] = new Sala("encrucijada");
@@ -35,7 +37,7 @@ public class ControlJuego implements ActionListener {
         mapa = new Mapa(salas);
         personaje = new Personaje("chanchito", 100, 10, 10);
         ventana = new Ventana();
-        controlMapa = new ControlMapa(ventana);
+        controlMapa = new ControlMapa(ventana, mochila);
         controlMochila = new ControlMochila(ventana, mochila, personaje);
 
         controlMapa.setPersonaje(personaje);

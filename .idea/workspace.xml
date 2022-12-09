@@ -8,6 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/control/ControlJuego.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/ControlJuego.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/control/ControlMapa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/ControlMapa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/control/ControlMochila.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/ControlMochila.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/vista/Pantalla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vista/Pantalla.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,19 +40,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "C:/Users/hum-s/Documents/Programacion/paradigmasProgramacion/lemuria/src/imagenes",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/hum-s/Documents/Programacion/paradigmasProgramacion/lemuria/src/imagenes&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\hum-s\Documents\Programacion\paradigmasProgramacion\lemuria\src\imagenes" />

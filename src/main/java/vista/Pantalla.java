@@ -20,6 +20,7 @@ public class Pantalla extends JPanel {
     private Texto indicaciones;
     Texto vidaPersonaje;
     Texto vidaEnemigo;
+    private ArrayList<Slot> slots = new ArrayList<>();
 
     public Pantalla(){
         setSize(382,292);
@@ -36,13 +37,19 @@ public class Pantalla extends JPanel {
         super();
         setSize(382,292);
         setPreferredSize(new Dimension(382,292));
-
+        int index = 0;
+        for(Item item : inventario){
+            Slot slot = new Slot(item.getNombre(), index == indiceSeleccionado);
+            slot.setBounds(10 + (index * 60), 20, 50, 50);
+            this.add(slot);
+            slots.add(slot);
+            index++;
+        }
         setLayout(null);
         this.mano = new Slot(mano, false);
         this.mano.setBounds(20, 200, 50, 50);
         fondo = getImage("inventario", 382, 292);
         this.add(this.mano);
-
     }
     public Pantalla(Item tesoro){
 
@@ -136,5 +143,8 @@ public class Pantalla extends JPanel {
         }
         if(vidaEnemigo != null) vidaEnemigo.repaint();
         if (mano != null)mano.repaint();
+        for(Slot s:slots){
+            s.repaint();
+        }
     }
 }

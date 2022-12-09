@@ -16,8 +16,11 @@ public class ControlMapa implements ActionListener {
 
 	private Personaje personaje;
 	private String manoNombre;
-	public ControlMapa(Ventana ventana) {
+
+	private Mochila mochila;
+	public ControlMapa(Ventana ventana, Mochila mochila) {
 		this.ventana = ventana;
+		this.mochila = mochila;
 	}
 
 	public void open(){
@@ -158,6 +161,17 @@ public class ControlMapa implements ActionListener {
 		if (dir == Actions.BUTTON_B) {
 			if (personaje.getMano() != null) {
 				usarMano();
+			}
+		}
+		if (dir == Actions.BUTTON_C){
+			if (personaje.getMano() != null){
+				boolean status = mochila.guardar(personaje.getMano());
+				if (status){
+					personaje.setMano(null);
+					this.manoNombre = "";
+					pantalla = new Pantalla(mapa.getSala().getNombre(),manoNombre, personaje.getVida());
+					despliega(pantalla);
+				}
 			}
 		}
 	}

@@ -24,11 +24,13 @@ public class ControlMochila implements ActionListener {
     public void buttonLeft(){
         if (indiceSeleccionado > 0){
             indiceSeleccionado--;
+            ventana.updatePantalla(generatePantalla());
         }
     }
     public void buttonRight(){
         if (indiceSeleccionado < mochila.getCapacidad()){
             indiceSeleccionado++;
+            ventana.updatePantalla(generatePantalla());
         }
     }
 
