@@ -5,65 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86dd1c27-171d-46de-8e48-a74247e700aa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/imagenes/chanchito.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imagenes/inventario.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/control/ControlJuego.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/control/ControlMochila.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Actions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vista/GameBoy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vista/Pantalla.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vista/Slot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vista/Texto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vista/Ventana.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/control/ControlMapa.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/control/PruebaControl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/error/DireccionNoValida.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exception/Sala404Exception.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/imagenes/gameboy.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/imagenes/gameboy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/control/ControlJuego.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/ControlJuego.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/control/ControlMapa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/ControlMapa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/control/PruebaControl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Mochila.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Mochila.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Personaje.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Personaje.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Pocion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Pocion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tests/EntidadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/EntidadTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vista/PanelEscenario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vista/PanelEscenario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vista/PanelPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vista/PanelPrincipal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vista/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vista/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vista/VentanaPrueba.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Arma.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Coordenada.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Coso.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Direccion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/ElementoConNombre.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Enemigo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Entidad.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Escudo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Estado.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Item.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Mapa.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Mochila.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Personaje.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Pocion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/PruebaMapa.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Sala.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/EntidadTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/MapaTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/PersonajeTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vista/Ejemplo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vista/PanelEscenario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vista/PanelPrincipal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vista/Principal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vista/SalaVista.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vista/VentanaPrueba.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vista/Pantalla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vista/Pantalla.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670506019710</updated>
-      <workItem from="1670506022603" duration="27691000" />
+      <workItem from="1670506022603" duration="28436000" />
     </task>
     <servers />
   </component>

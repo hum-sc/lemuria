@@ -20,6 +20,8 @@ public class ControlJuego implements ActionListener {
 
         Sala[][] salas =new Sala[3][3];
         salas[0][0] = new Sala("calabozo");
+        salas[0][0].setEnemigo(new Enemigo("julien", 100, 5, 10));
+        salas[0][0].setItem(new Pocion("pocion",  10));
         salas[0][1] = new Sala("caverna");
         salas[0][2] = new Sala("castillo");
         salas[1][0] = new Sala("pozo");

@@ -112,6 +112,8 @@ public class ControlMapa implements ActionListener {
 			this.manoNombre = personaje.getMano().getNombre();
 		}
 		pantalla = new Pantalla(this.mapa.getSala().getNombre(), manoNombre, personaje.getVida());
+		//Aqui va la validacion
+
 		despliega(pantalla);
 	}
 	public void usarMano(){

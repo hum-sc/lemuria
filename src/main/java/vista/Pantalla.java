@@ -36,11 +36,15 @@ public class Pantalla extends JPanel {
         super();
         setSize(382,292);
         setPreferredSize(new Dimension(382,292));
+
         setLayout(null);
         this.mano = new Slot(mano, false);
         this.mano.setBounds(20, 200, 50, 50);
         fondo = getImage("inventario", 382, 292);
         this.add(this.mano);
+
+    }
+    public Pantalla(Item tesoro){
 
     }
     public Pantalla(String fondo, String manoItem, int vida) {
