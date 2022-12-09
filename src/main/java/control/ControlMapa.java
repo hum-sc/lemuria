@@ -3,7 +3,7 @@ package control;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import javax.swing.JFrame;
+import javax.swing.*;
 
 import error.DireccionNoValida;
 import model.*;
@@ -116,7 +116,10 @@ public class ControlMapa implements ActionListener {
 		}
 		pantalla = new Pantalla(this.mapa.getSala().getNombre(), manoNombre, personaje.getVida());
 		//Aqui va la validacion
-
+		if(item instanceof Tesoro){
+			JOptionPane.showMessageDialog(null, "Has ganado");
+			System.exit(0);
+		}
 		despliega(pantalla);
 	}
 	public void usarMano(){

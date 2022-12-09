@@ -16,7 +16,7 @@ public class ControlJuego implements ActionListener {
     private boolean isMochilaOpen;
 
     public ControlJuego() throws Exception {
-        super();m
+        super();
 
         Sala[][] salas =new Sala[3][3];
         salas[0][0] = new Sala("calabozo");
