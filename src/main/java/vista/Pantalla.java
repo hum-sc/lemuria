@@ -40,7 +40,7 @@ public class Pantalla extends JPanel {
         int index = 0;
         for(Item item : inventario){
             Slot slot = new Slot(item.getNombre(), index == indiceSeleccionado);
-            slot.setBounds(10 + (index * 60), 20, 50, 50);
+            slot.setBounds(10 + (index * 60), 40, 50, 50);
             this.add(slot);
             slots.add(slot);
             index++;
@@ -49,6 +49,8 @@ public class Pantalla extends JPanel {
         this.mano = new Slot(mano, false);
         this.mano.setBounds(20, 200, 50, 50);
         fondo = getImage("inventario", 382, 292);
+        indicaciones = new Texto("Preciona A para colocar el objeto en la mano, B para tirarlo,\n C para guardar lo que tienes en la mano o SELECT para salir del inventario", 382,40);
+        this.add(indicaciones);
         this.add(this.mano);
     }
     public Pantalla(Item tesoro){
@@ -66,7 +68,7 @@ public class Pantalla extends JPanel {
         vidaPersonaje = new Texto("Vida: "+vida, 100, 30);
         vidaPersonaje.setLocation(20, 20);
         indicaciones = new Texto("presione SELECT para abrir la mochila o muevete con la cruzeta", 362, 40);
-        if (manoItem != null)if (manoItem.equals("pocion")) indicaciones = new Texto("presione B para usar la pocion, SELECT para abrir la mochila o muevete con la cruzeta", 362, 40);
+        if (manoItem != null)if (manoItem.equals("pocion")) indicaciones = new Texto("presione B para usar la pocion, C para guardar la pocion en la mochila SELECT \npara abrir la mochila o muevete con la cruzeta", 362, 40);
         indicaciones.setLocation(10, 250);
 
         this.add(vidaPersonaje);
@@ -80,7 +82,7 @@ public class Pantalla extends JPanel {
         this(fondo, manoItem, vida);
         if (item != null) this.item = getImage(item.getNombre() , 50, 50);
         this.remove(indicaciones);
-        this.indicaciones = new Texto("presiona A para tomar el item, SELECT para abrir la mochila o muevete con la cruzeta", 362, 40);
+        this.indicaciones = new Texto("presiona A para alzar el item, C para guardar en la mochila, SELECT para abrir la mochila o muevete con la cruzeta", 362, 40);
         if(manoItem != null)if (manoItem.equals("pocion")) this.indicaciones = new Texto("presiona A para agarrar el item, B para usar la pocion,\n  SELECT para abrir la mochila o muevete con la cruzeta", 362, 40);
         indicaciones.setLocation(10, 250);
         this.add(indicaciones);

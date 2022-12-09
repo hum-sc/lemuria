@@ -28,7 +28,7 @@ public class ControlMochila implements ActionListener {
         }
     }
     public void buttonRight(){
-        if (indiceSeleccionado < mochila.getCapacidad()){
+        if (indiceSeleccionado < mochila.getInventario().size()-1){
             indiceSeleccionado++;
             ventana.updatePantalla(generatePantalla());
         }
@@ -58,13 +58,22 @@ public class ControlMochila implements ActionListener {
             Item mano = personaje.seleccionarObjeto(item);
             if (mano != null) mochila.guardar(mano);
             mochila.sacar(item);
+            indiceSeleccionado= 0;
             ventana.updatePantalla(generatePantalla());
         }
         if(dir == Actions.BUTTON_B){
             Item item = mochila.getItem(indiceSeleccionado);
             mochila.sacar(item);
             sala.setItem(item);
+            indiceSeleccionado= 0;
             ventana.updatePantalla(generatePantalla());
+        }
+        if (dir == Actions.BUTTON_C){
+            mochila.guardar(personaje.getMano());
+            personaje.setMano(null);
+            indiceSeleccionado= 0;
+            ventana.updatePantalla(generatePantalla());
+
         }
     }
 }

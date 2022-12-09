@@ -63,6 +63,7 @@ public class ControlMapa implements ActionListener {
 		Item coso;
 		nombre = s.getNombre();
 		e = s.getEnemigo();
+		manoNombre = personaje.getMano() != null ? personaje.getMano().getNombre() : "";
 
 		pantalla = new Pantalla(nombre, manoNombre, personaje.getVida());
 		if ( e == null ) {
@@ -110,17 +111,17 @@ public class ControlMapa implements ActionListener {
 	public void recogerItem(){
 		Item item = this.mapa.getSala().getItem();
 		if(item != null) {
-			item = personaje.seleccionarObjeto(item);
-			this.mapa.getSala().setItem(item);
-			this.manoNombre = personaje.getMano().getNombre();
+			Item mano = personaje.seleccionarObjeto(item);
+			this.mapa.getSala().setItem(mano);
+			this.manoNombre = item.getNombre();
 		}
-		pantalla = new Pantalla(this.mapa.getSala().getNombre(), manoNombre, personaje.getVida());
+
 		//Aqui va la validacion
 		if(item instanceof Tesoro){
 			JOptionPane.showMessageDialog(null, "Has ganado");
 			System.exit(0);
 		}
-		despliega(pantalla);
+		generarPantalla(this.mapa.getSala());
 	}
 	public void usarMano(){
 		if (personaje.getMano() instanceof Pocion){

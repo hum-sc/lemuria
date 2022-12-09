@@ -5,10 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86dd1c27-171d-46de-8e48-a74247e700aa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Tesoro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imagenes/aka.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imagenes/chavez.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imagenes/espada.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imagenes/joker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imagenes/sarten.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imagenes/tesoro.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/control/ControlJuego.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/ControlJuego.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/control/ControlMapa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/ControlMapa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/control/ControlMochila.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/ControlMochila.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Arma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Arma.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vista/Pantalla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vista/Pantalla.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vista/Slot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vista/Slot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +55,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "C:/Users/hum-s/Documents/Programacion/paradigmasProgramacion/lemuria/src/main/java/model",
+    "last_opened_file_path": "C:/Users/hum-s/Documents/Programacion/paradigmasProgramacion/lemuria/src/imagenes",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -54,8 +64,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\hum-s\Documents\Programacion\paradigmasProgramacion\lemuria\src\main\java\model" />
       <recent name="C:\Users\hum-s\Documents\Programacion\paradigmasProgramacion\lemuria\src\imagenes" />
+      <recent name="C:\Users\hum-s\Documents\Programacion\paradigmasProgramacion\lemuria\src\main\java\model" />
     </key>
   </component>
   <component name="RunManager">
@@ -78,6 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1670506019710</updated>
       <workItem from="1670506022603" duration="28436000" />
+      <workItem from="1670561609302" duration="4528000" />
     </task>
     <servers />
   </component>

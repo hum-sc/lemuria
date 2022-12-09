@@ -19,19 +19,24 @@ public class ControlJuego implements ActionListener {
         super();
 
         Sala[][] salas =new Sala[3][3];
-        salas[0][0] = new Sala("calabozo");
-        salas[0][0].setEnemigo(new Enemigo("julien", 100, 5, 10));
-        salas[0][0].setItem(new Pocion("pocion",  10));
-        salas[0][1] = new Sala("caverna");
-        salas[0][1].setEnemigo(new Enemigo("julien", 100, 5, 10));
-        salas[0][1].setItem(new Pocion("pocion",  10));
-        salas[0][2] = new Sala("castillo");
-        salas[1][0] = new Sala("pozo");
-        salas[1][1] = new Sala("encrucijada");
-        salas[1][2] = new Sala("montana");
-        salas[2][0] = new Sala("bahia");
-        salas[2][1] = new Sala("torre");
-        salas[2][2] = new Sala("cerro");
+        String[] nombreSalas = {"calabozo", "campobatalla", "castillo", "caverna", "cerro", "encrucijada", "montana", "pozo", "torre"};
+        String[] nombreEnemigos = {"julien", "joker", "chavez"};
+        String[] armas = {"aka", "espada", "sarten"};
+        String[] pociones= {"pocion", "muffin"};
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                Enemigo enemigo = new Enemigo(nombreEnemigos[(int) (Math.random() * nombreEnemigos.length)], 100, 10, 10);
+                Item item;
+                if((int)(Math.random()*2 +1) == 1){
+                    item = new Pocion(pociones[(int)(Math.random()*2)], (int) (Math.random() * 30));
+                }else{
+                    item = new Arma(armas[(int) (Math.random() * armas.length)], (int) (Math.random() * 30));
+                }
+                salas[i][j] = new Sala(nombreSalas[(int)(Math.random()* nombreSalas.length)], enemigo,item);
+            }
+        }
+
+        salas[(int) (Math.random() * 3)][(int) (Math.random() * 3)].setItem(new Tesoro("tesoro"));
 
         mochila = new Mochila(7);
         mapa = new Mapa(salas);

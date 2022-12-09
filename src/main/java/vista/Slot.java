@@ -16,7 +16,7 @@ public class Slot extends JPanel {
         thing = getImage(nombre);
         if(isSelected){
             setBorder(BorderFactory.createLineBorder(Color.red, 5));
-            setBackground(Color.black);
+            setBackground(Color.darkGray);
         }
     }
 
