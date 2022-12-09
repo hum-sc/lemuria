@@ -1,3 +1,10 @@
+/*
+* Humberto Antonio Salinas Cortes
+* Juan Montero Terron
+* Estefany Montaño Estrada
+* Alexis Eduardo Almanza Ortega
+*/
+
 package control;
 
 import model.*;
