@@ -1,7 +1,7 @@
-package vista;
+package main.java.vista;
 
-import control.ControlMapa;
-import model.Actions;
+import main.java.control.ControlMapa;
+import main.java.model.Actions;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;

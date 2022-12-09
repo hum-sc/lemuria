@@ -1,8 +1,7 @@
-package control;
+package main.java.control;
 
-import model.*;
-import vista.Pantalla;
-import vista.Ventana;
+import main.java.model.*;
+import main.java.vista.*;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

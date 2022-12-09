@@ -1,4 +1,4 @@
-package error;
+package main.java.error;
 
 public class DireccionNoValida extends RuntimeException {
 

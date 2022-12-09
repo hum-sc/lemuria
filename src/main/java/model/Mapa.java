@@ -1,8 +1,8 @@
-package model;
+package main.java.model;
 
-import exceptions.NullSalaException;
+import main.java.exceptions.NullSalaException;
 
-import model.Direccion;
+import main.java.model.Direccion;
 
 public class Mapa {
     private Sala[][] salas;

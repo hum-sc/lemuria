@@ -1,4 +1,4 @@
-package model;
+package main.java.model;
 
 public class Estado {
     public final static int Ganado = 0;

@@ -1,4 +1,4 @@
-package vista;
+package main.java.vista;
 
 import java.awt.Graphics;
 import java.awt.image.BufferedImage;

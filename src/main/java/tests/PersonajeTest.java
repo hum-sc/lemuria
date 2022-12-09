@@ -1,9 +1,9 @@
-package tests;
+package main.java.tests;
 
-import model.Arma;
-import model.Entidad;
-import model.Personaje;
-import model.Pocion;
+import main.java.model.Arma;
+import main.java.model.Entidad;
+import main.java.model.Personaje;
+import main.java.model.Pocion;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

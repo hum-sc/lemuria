@@ -1,6 +1,5 @@
-package model;
+package main.java.model;
 
-import org.jetbrains.annotations.NotNull;
 
 public class Entidad extends ElementoConNombre {
 

@@ -1,4 +1,4 @@
-package model;
+package main.java.model;
 
 public class Actions {
     public static final int ARRIBA = Direccion.ARRIBA;

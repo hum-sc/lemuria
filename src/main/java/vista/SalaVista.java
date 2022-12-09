@@ -1,4 +1,4 @@
-package vista;
+package main.java.vista;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -7,9 +7,9 @@ import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 import javax.swing.JPanel;
 
-import control.ControlMapa;
-import model.Direccion;
-import model.Sala;
+import main.java.control.ControlMapa;
+import main.java.model.Direccion;
+import main.java.model.Sala;
 
 public class SalaVista extends JFrame{
 	public static final String ATACAR = "Atacar";

@@ -1,13 +1,14 @@
-package control;
+package main.java.control;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 import javax.swing.JFrame;
+import javax.swing.JOptionPane;
 
-import error.DireccionNoValida;
-import model.*;
-import vista.*;
+import main.java.error.DireccionNoValida;
+import main.java.model.*;
+import main.java.vista.*;
 
 public class ControlMapa implements ActionListener {
 	private Mapa mapa;                       
@@ -113,6 +114,9 @@ public class ControlMapa implements ActionListener {
 		}
 		pantalla = new Pantalla(this.mapa.getSala().getNombre(), manoNombre, personaje.getVida());
 		//Aqui va la validacion
+		/*if(tesoro!=null) {
+    		JOptionPane.showMessageDialog(null,"¡GANASTE!");
+    	}*/
 
 		despliega(pantalla);
 	}

@@ -1,7 +1,7 @@
-package vista;
+package main.java.vista;
 
-import model.Enemigo;
-import model.Item;
+import main.java.model.Enemigo;
+import main.java.model.Item;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
@@ -45,7 +45,7 @@ public class Pantalla extends JPanel {
 
     }
     public Pantalla(Item tesoro){
-
+    	
     }
     public Pantalla(String fondo, String manoItem, int vida) {
         super();

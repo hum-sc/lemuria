@@ -1,4 +1,4 @@
-package model;
+package main.java.model;
 
 public class Personaje extends Entidad{
     private Mochila mochila;

@@ -1,4 +1,4 @@
-package vista;
+package main.java.vista;
 
 import java.awt.Graphics;
 import java.awt.image.BufferedImage;
@@ -10,8 +10,8 @@ import javax.swing.JButton;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
-import control.ControlMapa;
-import model.Direccion;
+import main.java.control.ControlMapa;
+import main.java.model.Direccion;
 
 public class PanelPrincipal extends JPanel{
 	private BufferedImage fondo;

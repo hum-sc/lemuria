@@ -1,4 +1,4 @@
-package model;
+package main.java.model;
 
 public class Sala extends ElementoConNombre{
     private Enemigo enemigo;

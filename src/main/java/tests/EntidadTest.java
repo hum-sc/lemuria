@@ -1,7 +1,7 @@
-package tests;
+package main.java.tests;
 
-import model.Enemigo;
-import model.Entidad;
+import main.java.model.Enemigo;
+import main.java.model.Entidad;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

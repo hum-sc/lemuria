@@ -1,9 +1,9 @@
-package tests;
+package main.java.tests;
 
-import model.Direccion;
-import model.Mapa;
-import model.Sala;
-import exceptions.NullSalaException;
+import main.java.model.Direccion;
+import main.java.model.Mapa;
+import main.java.model.Sala;
+import main.java.exceptions.NullSalaException;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;

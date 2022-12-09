@@ -1,8 +1,7 @@
-package vista;
+package main.java.vista;
 
-import control.ControlJuego;
-import control.ControlMapa;
-import model.*;
+import main.java.control.*;
+import main.java.model.*;
 
 public class Principal {
 

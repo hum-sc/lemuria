@@ -1,6 +1,6 @@
-package vista;
+package main.java.vista;
 
-import model.Sala;
+import main.java.model.Sala;
 
 import javax.swing.*;
 import java.awt.event.ActionListener;
